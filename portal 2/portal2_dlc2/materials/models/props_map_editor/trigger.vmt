@@ -1,0 +1,5 @@
+patch
+{
+$translucent 1
+$basetexture "models/props_map_editor/trigger"
+}

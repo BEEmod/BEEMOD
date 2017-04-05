@@ -1,0 +1,500 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5454"
+	"mapversion" "54"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "54"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "1402"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "World.RobotPosInteract"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"SourceEntityName" "Kubus"
+	"spawnflags" "48"
+	"targetname" "Anschaltsound"
+	"origin" "8 -8 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1381"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "World.RobotNegInteract"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"SourceEntityName" "Kubus"
+	"spawnflags" "48"
+	"targetname" "Fehlersound"
+	"origin" "8 8 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1346"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"parentname" "Katapult_Ziel_Distanz"
+	"spawnflags" "0"
+	"targetname" "Katapult_Ziel"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1353"
+	"classname" "func_door"
+	"disableflashlight" "1"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "1"
+	"disableshadows" "1"
+	"dmg" "0"
+	"drawinfastreflection" "0"
+	"forceclosed" "0"
+	"health" "0"
+	"ignoredebris" "0"
+	"lip" "$TargetDistanceFromCubeCenter"
+	"locked_sentence" "0"
+	"loopmovesound" "0"
+	"movedir" "90 0 0"
+	"origin" "0 0 0"
+	"parentname" "Kubus"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"shadowdepthnocache" "0"
+	"spawnflags" "4621"
+	"spawnpos" "1"
+	"speed" "999"
+	"targetname" "Katapult_Ziel_Distanz"
+	"unlocked_sentence" "0"
+	"wait" "4"
+	solid
+	{
+		"id" "1348"
+		side
+		{
+			"id" "60"
+			"plane" "(-4 -4 2.98023e-007) (4 -4 2.98023e-007) (4 -4 -1)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "59"
+			"plane" "(-4 4 -1) (4 4 -1) (4 4 2.98023e-007)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58"
+			"plane" "(-4 -4 2.98023e-007) (-4 -4 -1) (-4 4 -1)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "57"
+			"plane" "(4 4 2.98023e-007) (4 4 -1) (4 -4 -1)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 0 1 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56"
+			"plane" "(4 -4 2.98023e-007) (-4 -4 2.98023e-007) (-4 4 2.98023e-007)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "55"
+			"plane" "(4 4 -1) (-4 4 -1) (-4 -4 -1)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "1030"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "AutoFire_Enable"
+	connections
+	{
+		"OnTrigger" "KatapultEnable0-1"
+		"OnTrigger" "FireDisable0-1"
+		"OnTrigger" "FireCancelPending0-1"
+		"OnTrigger" "AutoFire_DisableEnable0-1"
+		"OnTrigger" "AutoFire_EnableDisable0-1"
+		"OnTrigger" "SprungkubusSkin00-1"
+		"OnTrigger" "AnschaltsoundPlaySound0-1"
+	}
+	"origin" "0 -8 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1046"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "AutoFire_Disable"
+	connections
+	{
+		"OnTrigger" "KatapultDisable0-1"
+		"OnTrigger" "FireEnable0-1"
+		"OnTrigger" "AutoFire_EnableEnable0-1"
+		"OnTrigger" "AutoFire_DisableDisable0-1"
+		"OnTrigger" "SprungkubusSkin20-1"
+		"OnTrigger" "FehlersoundPlaySound0-1"
+	}
+	"origin" "16 -8 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1284"
+	"classname" "func_instance_parms"
+	"parm1" "$PlayerSpeed integer 450"
+	"parm2" "$PhysicsSpeed integer 450"
+	"parm3" "$TargetDistanceFromCubeCenter integer 256"
+	"origin" "8 8 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "594"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "FireTrigger0-1"
+		"OnProxyRelay" "AutoFire_EnableTrigger0-1"
+		"OnProxyRelay" "AutoFire_DisableTrigger0-1"
+	}
+	"origin" "-8 8 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "606"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "Fire"
+	connections
+	{
+		"OnTrigger" "KatapultEnable0-1"
+		"OnTrigger" "KatapultDisable0.1-1"
+		"OnTrigger" "SprungkubusSkin00-1"
+		"OnTrigger" "SprungkubusSkin21-1"
+		"OnTrigger" "FehlersoundPlaySound1-1"
+		"OnTrigger" "AnschaltsoundPlaySound0-1"
+	}
+	"origin" "-16 -8 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_weighted_cube"
+	"allowfunnel" "1"
+	"angles" "0 0 0"
+	"disableflashlight" "1"
+	"disablereceiveshadows" "1"
+	"disableshadowdepth" "1"
+	"disableshadows" "1"
+	"PaintPower" "4"
+	"rendermode" "10"
+	"shadowdepthnocache" "1"
+	"targetname" "Kubus"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/erikszeug/gameplay/sprungkubus.mdl"
+	"parentname" "Kubus"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"targetname" "Sprungkubus"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "331"
+	"classname" "trigger_catapult"
+	"AirCtrlSupressionTime" "-1.0"
+	"applyAngularImpulse" "1"
+	"entryAngleTolerance" "0.0"
+	"exactVelocityChoiceType" "0"
+	"filtername" "Kubus_Filter"
+	"launchDirection" "0 0 0"
+	"launchTarget" "Katapult_Ziel"
+	"lowerThreshold" "0.15"
+	"onlyVelocityCheck" "0"
+	"origin" "0 0 20"
+	"parentname" "Kubus"
+	"physicsSpeed" "$PhysicsSpeed"
+	"playerSpeed" "$PlayerSpeed"
+	"spawnflags" "4111"
+	"StartDisabled" "0"
+	"targetname" "Katapult"
+	"upperThreshold" "0.30"
+	"useExactVelocity" "0"
+	"useThresholdCheck" "0"
+	connections
+	{
+		"OnCatapulted" "SprungkubusSetAnimationsprung0-1"
+	}
+	solid
+	{
+		"id" "327"
+		side
+		{
+			"id" "48"
+			"plane" "(-4 -4 24) (-4 4 24) (4 4 24)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(-4 4 16) (-4 -4 16) (4 -4 16)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46"
+			"plane" "(-4 -4 16) (-4 4 16) (-4 4 24)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "45"
+			"plane" "(4 4 16) (4 -4 16) (4 -4 24)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44"
+			"plane" "(-4 4 16) (4 4 16) (4 4 24)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43"
+			"plane" "(4 -4 16) (-4 -4 16) (-4 -4 24)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "347"
+	"classname" "filter_activator_name"
+	"filtername" "Kubus"
+	"Negated" "1"
+	"targetname" "Kubus_Filter"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

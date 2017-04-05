@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	$basetexture "EriksZeug/Modelle/Bumbleball/bumbleball01"
+	$bumpmap "EriksZeug/Modelle/Bumbleball/bumbleball_normal"
+	$envmap env_cubemap
+	$envmaptint "[.3 .3 .3 ]"
+	$normalmapalphaenvmapmask 1
+	$phong 1
+	$phongexponent 5
+	$phongboost 2
+	$phongfresnelranges "[5 1 2]"
+	$selfillum 1
+	$nodecal 1
+}
