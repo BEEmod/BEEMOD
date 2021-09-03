@@ -744,7 +744,7 @@ entity
 	"fadeout" "0.5"
 	"fxtime" ".05"
 	"holdtime" "99999"
-	"message" "You can not play this level without the BEEMOD,\n or the BEEMOD Resource Package installed.\nDownload either at Portal2BackStock.com/BEE"
+	"message" "You can not play this level without the BEEMOD,\n or the BEEMOD Resource Package installed.\nDownload either at GitHub.com/BEEmod/BEEmod"
 	"spawnflags" "1"
 	"targetname" "displaytext"
 	"x" "-1"
