@@ -1,5 +1,4 @@
 # August and Ben's Extended Editor - BEEMOD1.5
-Get more information about the BEE at [portal2backstock.com/bee](https://portal2backstock.com/bee/) or [github.com/BEEmod/BEEMOD](https://github.com/BEEmod/BEEMOD)
 ### Creator info
 #### August - [augustloolam.com](http://augustloolam.com/)
 * Made all the in-puzzlemaker models and animations

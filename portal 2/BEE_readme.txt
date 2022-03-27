@@ -4,7 +4,7 @@ August made all the in puzzlemaker models and animations
 Ben made the instances and integrated them with the puzzlemaker
 you can use the instances, but you must get permission from august to use his models
 
-get more information about the BEE at portal2backstock.com/bee or github.com/BEEmod/BEEMOD
+get more information about the BEE at github.com/BEEmod/BEEMOD
 
 information including contact for August is here augustloolam.com
 information including contact for Benis here benvlodgi.github.io
