@@ -1,3 +1,9 @@
+### This is a legacy version of BEEmod.
+
+This is the original version of the mod which modifies EditorItems directly and does not include an application or custom precompiler. You may still use it if you prefer a simpler, cross-platform version of the mod, but note that it is no longer maintained.
+
+See [BEE2.4](https://github.com/BEEmod/BEE2.4) for the currently maintained version of BEEmod.
+
 # August and Ben's Extended Editor - BEEMOD1.5
 ### Creator info
 #### August - [augustloolam.com](http://augustloolam.com/)
